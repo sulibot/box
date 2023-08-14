@@ -1,0 +1,7 @@
+---
+creation_rules:
+  # cluster secrets
+  - path_regex: secret.sops.yaml
+    encrypted_regex: (^data$|^stringData$|user|[Pp]assword|userDatabase)
+    age: >-
+      age1k3sunyva3kc3jusxs3j93nyueqjgzcgg6s6qghn8aeqpuy7l35wss8gxvg
